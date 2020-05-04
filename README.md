@@ -9,12 +9,14 @@
 
 The general folder structure of this repository is as follows:
 ```
-root/section/problem
+root/section/problem/model
+root/section/problem/data
+root/section/problem/notebook
+root/section/problem/image
 ```
 #### Additional notes
 * The  `helper_functions` folder is a python package with functions used across multiple problems
-* An `output` folder is created when a model script is run. It stores exported csv solution  
-* Each problem folder contains at least one mod.py file. This is the file
+* An `output` folder is created when a model script is run. It stores exported csv solutions  
 
 ## Naming convention
 
@@ -29,9 +31,9 @@ root/section/problem
 * data - data_{descriptive_name}.csv --> `data_arc.csv`
 * output - soln_{model_name}.csv --> `soln_8.1-1.csv`
 
-### Jupyter Notebooks
+#### Jupyter Notebooks
 * notebook - {chapter}.{section}-{problem} --> `8.1-1.ipynb`
-* embedded image - {img}_{notebook}_{description}.png --> `img_8.1-1_table.png`
+* image - {img}_{notebook}_{description}.png --> `img_8.1-1_table.png`
  
 ## Environment/Packages/Libraries
 * Conda
@@ -54,17 +56,16 @@ Some models/notebooks use xlrd library to read in .csv and/or .xlsx files. Insta
 python -m pip install xlrd
 ```
 
-## Running Models
-1. Select a `section` folder -> i.e. `8.1 (The Transportation Problem)`
-2. Select a`problem` folder -> i.e. `i.e. 8.1 (The Transportation Problem)/prob_1/`
-3. Select a `model` file -> i.e. `8.1 (The Transportation Problem)/prob_1/mod_v1.py`
-3. Run `model` file using default configuration (on Mac: ctrl+shift+R)
-4. Running the `model` file will create a new `output` folder (within the `section` directory). Solutions results 
-will be exported this this folder in a csv format.
+## Stand alone models ready to run
+* 8.1 (The Transportation Problem)/prob_1/mod_v1.py
+* 9.3 (The Shortest Path Problem)/prob_1/mod_v1.py
 
+## Running Models
+1. Select a `model` file -> i.e. `8.1 (The Transportation Problem)/prob_1/mod_v1.py`
+2. Execute the `model` file using default configuration (on Mac: `ctrl+shift+R`)
+3. Review model results in the newly created `output` folder -> `8.1 (The Transportation Problem)/prob_1/output`
 
 ## Contact
-
 Please feel free to contact us with any questions, suggestions or comments:
 * S. Lei
 * slei232@gmail.com
