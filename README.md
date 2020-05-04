@@ -7,19 +7,32 @@
 
 ## Directory Structure
 
-The folder structure of this repository is as follows:
+The general folder structure of this repository is as follows:
 ```
-root/chapter/problem
+root/section/problem
 ```
-#### Naming convention
-* chapter - ch{chapter number}_{chapter_title} --> **ch8_the_transportation_and_assignment_problems**
-* problem - sec{section number}_hw{problem number} --> **sec1_hw1** 
-* model - mod_v{version number}.py --> **mod_v1.py**
-* data - data_{descriptive_name}.csv --> **data_arc.csv** 
+#### Additional notes
+* The  `helper_functions` folder is a python package with functions used across multiple problems
+* An `output` folder is created when a model script is run. It stores exported csv solution  
+* Each problem folder contains at least one mod.py file. This is the file
 
-#### Models and data files
-* each problem folder contains at least one mod.py file. This is the file 
+## Naming convention
 
+#### Folders
+* lowercase with underscore
+* section - chapter.section + (Section Title) --> `8.1 (The Transportation Problem)`
+* problem - prob_{number} --> `prob_1`
+ 
+#### Files
+* lowecase with underscore
+* model - mod_v{version number}.py --> `mod_v1.py`
+* data - data_{descriptive_name}.csv --> `data_arc.csv`
+* output - soln_{model_name}.csv --> `soln_8.1-1.csv`
+
+### Jupyter Notebooks
+* notebook - {chapter}.{section}-{problem} --> `8.1-1.ipynb`
+* embedded image - {img}_{notebook}_{description}.png --> `img_8.1-1_table.png`
+ 
 ## Environment/Packages/Libraries
 * Conda
 * Python             (3.7)

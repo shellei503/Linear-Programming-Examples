@@ -124,7 +124,12 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Personal files
-/getting started.pptx
-/ch8_the_transportation_and_assignment_problems/sec1_hw1/output/
+# Output files
 /helper_functions/output/
+/8.1 (The Transportation Probelm)/prob_1/output/
+/9.3 (The Shortest Path Probelm)/prob_1/output/
+
+# ppt
+/getting started.pptx
+/9.3 (The Shortest Path Probelm)/prob_1/ppt_9.3-1.pptx
+
