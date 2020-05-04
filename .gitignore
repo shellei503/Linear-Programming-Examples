@@ -123,3 +123,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Personal files
+/getting started.pptx
+/ch8_the_transportation_and_assignment_problems/sec1_hw1/output/
+/helper_functions/output/
