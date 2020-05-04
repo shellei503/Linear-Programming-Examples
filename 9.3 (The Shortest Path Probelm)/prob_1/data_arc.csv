@@ -1,0 +1,13 @@
+﻿origin,destination,OD_pair,distance
+O,A,OA,40
+O,C,OC,60
+O,B,OB,50
+A,B,AB,10
+A,D,AD,70
+B,D,BD,20
+B,E,BE,55
+C,B,CB,40
+C,E,CE,50
+D,E,DE,10
+D,T,DT,60
+E,T,ET,80
