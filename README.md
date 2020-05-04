@@ -53,6 +53,6 @@ python -m pip install xlrd
 
 Please feel free to contact us with any questions, suggestions or comments:
 
-* Xueli Lei
+* S. Lei
 * slei232@gmail.com
 

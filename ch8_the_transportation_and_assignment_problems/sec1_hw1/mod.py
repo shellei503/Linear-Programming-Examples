@@ -14,7 +14,7 @@ of the distribution centers to minimize the total shipping cost? (a) Formulate t
 problem by constructing the appropriate parameter table. (b) Draw the network representation of this problem. (c)
 Obtain an optimal solution.
 
-Copyright @author: Xueli Lei
+Copyright @author: S. Lei
 """
 
 import pandas as pd
