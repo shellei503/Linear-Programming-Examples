@@ -44,7 +44,6 @@ root/section/problem
 All models require CPLEX to solve. Install `cplex` with `pip`
 ```
 python -m pip install cplex
-
 ```
 Some models are written using docplex module. Install `docplex` with `pip`
 ```
@@ -56,16 +55,17 @@ python -m pip install xlrd
 ```
 
 ## Running Models
-1. Open up the `probelm` folder (i.e. ch8_the_transportation_and_assignment_problems/sec1_hw1)
-2. Open `mod.py` file
-3. Run `mod.py` using default configuration (on Mac: ctrl+shift+R)
-4. `mod.py` will create a new `output` folder and export solution results to a csv file to this folder
+1. Select a `section` folder -> i.e. `8.1 (The Transportation Problem)`
+2. Select a`problem` folder -> i.e. `i.e. 8.1 (The Transportation Problem)/prob_1/`
+3. Select a `model` file -> i.e. `8.1 (The Transportation Problem)/prob_1/mod_v1.py`
+3. Run `model` file using default configuration (on Mac: ctrl+shift+R)
+4. Running the `model` file will create a new `output` folder (within the `section` directory). Solutions results 
+will be exported this this folder in a csv format.
 
 
 ## Contact
 
 Please feel free to contact us with any questions, suggestions or comments:
-
 * S. Lei
 * slei232@gmail.com
 
