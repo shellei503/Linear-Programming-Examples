@@ -87,11 +87,11 @@ print(path)
 
 # Export results to csv
 lst = []
-for u, v in edges:
+for u,v in edges:
     if soln.get_var_value(x[u, v]) > 0:
         arc = u + '->' + v
         solution = (u, v, arc, distance[u, v])
         lst.append(solution)
 df = pd.DataFrame.from_records(lst, columns=['origin', 'destination', 'arc_name', 'distance'])
-df
-export_soln_to_csv(m, df)
+
+export_soln_to_csv(df, m.get_name())

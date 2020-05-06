@@ -124,12 +124,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Output files
-/helper_functions/output/
-/8.1 (The Transportation Problem)/prob_1/output/
-/9.3 (The Shortest Path Problem)/prob_1/output/
-
 # ppt
 /getting started.pptx
 /9.3 (The Shortest Path Problem)/prob_1/ppt_9.3-1.pptx
 
+# Jupyter Notebooks
+/plot_weighted_graph.ipynb
+
+# Output files
+/helper_functions/output/
+/8.1 (The Transportation Problem)/prob_1/output/
+/9.3 (The Shortest Path Problem)/prob_1/output/
+/9.4 (The Minimum Spanning Tree Problem)/prob_2/output/
+/9.4 (The Minimum Spanning Tree Problem)/prob_2/9.4-2 (misc1).ipynb
+/9.4 (The Minimum Spanning Tree Problem)/prob_2/9.4-2 (using custom functions)-Copy1.ipynb

@@ -81,4 +81,4 @@ for i in x:
         lst.append(solution)
 df = pd.DataFrame.from_records(lst, columns=['plant', 'distribution', 'quantity'])
 
-export_soln_to_csv(m, df)
+export_soln_to_csv(df, m.get_name())
