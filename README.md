@@ -1,7 +1,8 @@
-# Introduction To Operations Research 7th ed
-  Provides sample Python code to solve homework problems from the textbook Introduction to Operations Research, 7th edition by 
-  Hillier and Lieberman
+# Introduction To Operations Research
+  Created for students just learning about Operations Research. 
+  Goes over key problem structures you are likely to encounter in indsutry and shows how to solve using Python.
   
+  Recommend reading Introduction to Operations Research, 7th edition by Hillier and Lieberman
   Textbook pdf: https://notendur.hi.is/kth93/3.20.pdf
   
 
