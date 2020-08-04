@@ -1,8 +1,7 @@
 # Introduction To Operations Research
-  Created for students just learning about Operations Research. 
-  Goes over key problem structures you are likely to encounter in indsutry and shows how to solve using Python.
-  
-  Recommend reading Introduction to Operations Research, 7th edition by Hillier and Lieberman
+  Created for students just learning about Operations Research. Goes over key problem structures you are likely to encounter in industry and shows how to solve using Python.
+
+  Recommended reading: Introduction to Operations Research, 7th edition by Hillier and Lieberman <br>
   Textbook pdf: https://notendur.hi.is/kth93/3.20.pdf
   
 
